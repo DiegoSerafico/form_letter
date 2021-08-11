@@ -1,7 +1,21 @@
 #formOne {
-  background-color: aqua;
+  background-color: rgb(130, 219, 219);
+  border: 1px solid black;
 }
 
-.formGroups {
-  margin: 10px solid black;
+.form-group {
+  margin: 20px;
+}
+
+#letter {
+  background-image: url("../img/paper.jpg");
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  font-family: cursive; 
+}
+
+#btn {
+  margin: 5px;
+  align-items: center;
 }
