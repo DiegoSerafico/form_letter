@@ -1,4 +1,7 @@
 #formOne {
   background-color: aqua;
-  
+}
+
+.formGroups {
+  margin: 10px solid black;
 }

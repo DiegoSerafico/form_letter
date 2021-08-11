@@ -4,13 +4,13 @@
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
-  <script src="js/scipts.js"></script>
+  <script src="js/scripts.js"></script>
   <title>Form Letter</title>
 </head>
 <body>
   <div class="container">
     <h1>Form Letter</h1>
-    <div class="container">
+    <div>
         <form id="formOne">
           <div class="form-group">
             <label for="firstName">Enter your first name</label>
@@ -20,7 +20,18 @@
             <label for="lastName">Enter your first name</label>
             <input type="text" id="lastName" class="form-control">
           </div>
+
+          <button type="submit" class="btn">Submit</button>
         </form>
+    </div>
+    
+    <div id="letter">
+      <p>
+        Hello <span class="fullName"></span>,<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <span class="firstName"></span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <br>Thanks a lot,<br>
+        <span class="fullName"></span>
+      </p>
     </div>
   </div>
 </body>
