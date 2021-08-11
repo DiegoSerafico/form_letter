@@ -8,6 +8,8 @@ $(document).ready(function() {
     $(".lastName").text(lastName);
     $(".fullName").text(fullName);
 
+    $("#letter").show();
+
     event.preventDefault();
   });
 });

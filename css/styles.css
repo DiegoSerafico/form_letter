@@ -8,6 +8,7 @@
 }
 
 #letter {
+  display: none;
   background-image: url("../img/paper.jpg");
   margin-top: 10px;
   border: 1px solid black;
@@ -15,7 +16,15 @@
   font-family: cursive; 
 }
 
-#btn {
-  margin: 5px;
-  align-items: center;
+#signature {
+  font-family: "Tangerine", serif;
+  font-size: 35px;
+}
+
+#formOne .btn {
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+  background-color: black;
+  color: aliceblue;
 }
